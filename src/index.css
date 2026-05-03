@@ -1,0 +1,37 @@
+/***importing google fonts - iner**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+.swiper{
+    width:100%;
+    position: relative;
+}
+.swiper-slide{
+    text-align: center;
+    height: 500px;
+}
+.swiper-slide img{
+    width: 500px;
+    height:500px ;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+/* Both buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;                 /* arrow color */
+  background: rgba(0,0,0,0.5);  /* background */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Position inside slider */
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
