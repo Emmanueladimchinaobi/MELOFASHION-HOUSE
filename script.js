@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
   prevEl: ".mySwiper .swiper-button-prev",
 },
 pagination: {
-    el: ".mySwiper .swiper-pagination", // ✅ scoped
+    el: ".mySwiper .swiper-pagination",// ✅ scoped
     clickable: true,
   },
 });
