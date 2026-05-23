@@ -17,15 +17,8 @@
 
 
 
-/* Both buttons */
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;                 /* arrow color */
-  background: rgba(0,0,0,0.5);  /* background */
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
+
+
 
 /* Position inside slider */
 .swiper-button-prev {
